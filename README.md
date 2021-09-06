@@ -1,22 +1,22 @@
 # Group 1- Email Client Project
 
-## Group Members:
+## Group Members
 
-----------------
+---
 
 - Adam Thomas(amotiv)
 - Connor Moody(mcmoody)
 - Cooper Riley(cooper350)
 
-## Project Description:
+## Project Description
 
----------------------
+---
 
 - Creating a user friendly and easy to use email client for our users.
 
-## Objective:
+## Objective
 
------------
+---
 
 The email client will need toperform the following functionalities:
 
@@ -28,28 +28,27 @@ The email client will need toperform the following functionalities:
 
 - A user should be able to sendattachments (image, files etc.) along with an email
 
-## Languages:
+## Languages
 
-------------
+---
 
-- HTML 
+- HTML
 - CSS
 - Javascript
 - Python
 
-## Frameworks:
+## Frameworks
 
--------------
+---
 
 - React
 - Django
 
-## Features:
+## Features
 
------------
+---
 
 - User and administrator accounts
 - Send, receive and forward emails
 - Use attachments for files
 - Simple intuitive design
-
