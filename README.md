@@ -52,3 +52,10 @@ The email client will need toperform the following functionalities:
 - Send, receive and forward emails
 - Use attachments for files
 - Simple intuitive design
+
+## Meetings:
+
+---
+
+- 9/8
+- 9/27
