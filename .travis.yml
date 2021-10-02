@@ -1,7 +1,8 @@
-language: python
-python:
-  - "3.9"
+language: node_js
+node_js:
+  - "12"
 install:
-  - pip install -r requirements.txt
+  - cat requirements.txt | xargs npm install -g
 script:
-  - python test.py
+    - npm test
+    - npm run build
