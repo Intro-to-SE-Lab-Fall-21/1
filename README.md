@@ -35,5 +35,5 @@ The email client will need toperform the following functionalities:
 
 ---
 
-- 9/8
-- 9/27
+- 9/8 -2 hours
+- 9/27 - 3 hours
