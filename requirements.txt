@@ -1,1 +1,5 @@
-numpy==1.21.2
+    "@sendgrid/mail": "^7.4.7",
+    "autoprefixer": "^10.3.6",
+    "next": "11.1.2",
+    "react": "17.0.2",
+    "tailwindcss": "^2.2.16"
