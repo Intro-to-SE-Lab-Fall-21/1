@@ -1,0 +1,17 @@
+Sprint 2
+Assigned Tasks:
+Cooper - Setting up the email Client
+Adam- Sprint 2 documents and styling of the email client
+Connor - Diagrams
+
+Meetings for Sprint 2:
+Every wednesday for lab and September 9th, 27th, and 28th for about 3 hours each. We also discussed the user story.
+
+Plans for Sprint 3:
+We plan on adding extra styling and including links and attachments to our email client.
+
+User stories:
+
+Front End: My assignment is to make sure the styling is good  priority: 2 risk: 2 points: 5
+Backend: My assignment is to make sure the email client is functional. Priority: 2, Risk: 1 p:5
+Designer: My assignment is to make sure the diagrams look good priority: 1 risk: 3 points: 5
