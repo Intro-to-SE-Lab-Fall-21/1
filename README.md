@@ -40,3 +40,4 @@ The email client will need toperform the following functionalities:
 - 9/28 -  3 hours
 - 10/2 -  2 hours
 - 10/19 - 2 hours
+- 10/20 - 3 hours
