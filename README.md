@@ -42,3 +42,4 @@ The email client will need toperform the following functionalities:
 - 10/2 -  2 hours
 - 10/19 - 2 hours
 - 10/20 - 3 hours
+- 10/21 - 1 hour
