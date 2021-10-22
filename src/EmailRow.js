@@ -4,10 +4,12 @@ import { useHistory } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { selectMail } from "./features/mailSlice";
 
+// Checks the email row evaluating the message history
 function EmailRow({ id, title, subject, description, time }) {
   const history = useHistory();
   const dispatch = useDispatch();
 
+  // Mail opened?
   const openMail = () => {
     dispatch(
       selectMail({
@@ -22,6 +24,7 @@ function EmailRow({ id, title, subject, description, time }) {
     history.push("/mail");
   };
 
+  // Return to function
   return (
     <div onClick={openMail} className="emailRow">
       <div className="emailRow__options">
