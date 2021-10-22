@@ -30,13 +30,6 @@ function EmailRow({ id, title, subject, description, time }) {
   return (
     <div onClick={openMail} className="emailRow">
       <div className="emailRow__options">
-        <Checkbox />
-        <IconButton>
-          <StarBorderOutlinedIcon />
-        </IconButton>
-        <IconButton>
-          <LabelImportantOutlinedIcon />
-        </IconButton>
       </div>
 
       <h3 className="emailRow__title">{title}</h3>
