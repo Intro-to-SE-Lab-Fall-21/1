@@ -29,7 +29,6 @@ The email client will need toperform the following functionalities:
 - Send, receive and forward emails
 - Use attachments for files
 - Simple intuitive design
-
 ## Meetings:
 
 ---
@@ -41,3 +40,14 @@ The email client will need toperform the following functionalities:
 - 10/19 - 2 hours
 - 10/20 - 3 hours
 - 10/21 - 1 hour
+
+##Starting Project:
+
+npm install on React framework using visual studio code to get your node modules
+
+In the project directory, you can run:
+
+### `npm run start`
+
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
