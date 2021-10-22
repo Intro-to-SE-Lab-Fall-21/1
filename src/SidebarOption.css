@@ -6,7 +6,7 @@
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     cursor: pointer;
-    color: #818181;
+    color: #721d1d;
   }
   
   .sidebarOption:hover,
@@ -16,7 +16,7 @@
   .sidebarOption--active > p,
   .sidebarOption--active > h3 {
     background-color: #fcecec;
-    color: #c04b37;
+    color: #562cc9;
     font-weight: 800 !important;
   }
   
