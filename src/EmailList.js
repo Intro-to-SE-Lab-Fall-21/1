@@ -5,6 +5,7 @@ import Section from "./Section";
 import EmailRow from "./EmailRow";
 import { db } from "./firebase";
 
+// Shows a list of emails and their messages
 function EmailList() {
   const [emails, setEmails] = useState([]);
 
@@ -21,6 +22,8 @@ function EmailList() {
       );
   }, []);
 
+  
+  // Function end
   return (
     <div className="emailList">
       <div className="emailList__settings">
@@ -34,6 +37,7 @@ function EmailList() {
         <Section Icon={InboxIcon} title="Main" color="red" selected />
       </div>
 
+// Email listings
       <div className="emailList__list">
         {emails.map(({ id, data: { to, subject, message, timestamp } }) => (
           <EmailRow
