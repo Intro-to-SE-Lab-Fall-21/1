@@ -5,17 +5,17 @@
     padding: 15px;
     min-width: 200px;
     cursor: pointer;
-    color: grey;
+    color: aqua;
     border-width: 0 !important;
   }
   
   .section--selected {
-    background-color: whitesmoke;
+    background-color: lightblue;
     border-width: 3px !important;
   }
   
   .section:hover {
-    background-color: whitesmoke;
+    background-color: lightblue;
     border-width: 3px !important;
   }
   
