@@ -23,8 +23,6 @@ The email client will need toperform the following functionalities:
 ## Frameworks
 ---
 - React
-- Tailwind CSS
-- CRACO
 ## Features
 ---
 - User and administrator accounts
