@@ -12,15 +12,17 @@ import { login, selectUser } from "./features/userSlice";
 import Login from "./Login";
 import { auth } from "./firebase";
 
+// Opens the app and define the user and load messages
 function App() {
   const sendMessageIsOpen = useSelector(selectSendMessageIsOpen);
   const user = useSelector(selectUser);
   const dispatch = useDispatch();
 
+  // Is the auth state changed?
   useEffect(() => {
     auth.onAuthStateChanged((user) => {
       if (user) {
-        // the user is logged in
+        // User is logged in
         dispatch(
           login({
             displayName: user.displayName,
@@ -59,4 +61,5 @@ function App() {
   );
 }
 
+// Exporting the default app
 export default App;
