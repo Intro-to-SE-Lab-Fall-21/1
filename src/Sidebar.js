@@ -13,11 +13,10 @@ function Sidebar() {
   return (
     <div className="sidebar">
       <Button
-        startIcon={<AddIcon fontSize="large" />}
-        className="sidebar__compose"
+        className="sidebar__sendmail"
         onClick={() => dispatch(openSendMessage())}
       >
-        Compose
+        SendMail
       </Button>
 
       <SidebarOption
