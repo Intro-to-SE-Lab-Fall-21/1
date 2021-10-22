@@ -2,7 +2,7 @@
     position: absolute;
     bottom: 0px;
     right: 50px;
-    background-color: #404040;
+    background-color: #4ff9;
     width: 40%;
     height: 40%;
     max-width: 500px;
@@ -10,7 +10,7 @@
     border-top-right-radius: 10px;
     display: flex;
     flex-direction: column;
-    border: 1px solid whitesmoke;
+    border: 1px solid lightcyan;
     box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
   }
   
@@ -19,16 +19,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: gray;
+    color: aqua;
   }
   
   .sendMail__header > h3 {
-    color: whitesmoke;
+    color: lightblue;
     font-size: 13px;
   }
   
   .sendMail__send {
-    background-color: #3079ed !important;
+    background-color: #FFD700 !important;
     text-transform: capitalize !important;
     margin: 15px !important;
   }
@@ -44,8 +44,8 @@
   }
   
   .sendMail__error {
-    background-color: white;
-    color: red;
+    background-color: lightcyan;
+    color: goldenrod;
     text-align: right;
     padding: 2px;
   }
@@ -54,7 +54,7 @@
     height: 30px;
     padding: 10px;
     border: none;
-    border-bottom: 1px solid whitesmoke;
+    border-bottom: 1px solid lightblue;
     outline: none;
   }
   
