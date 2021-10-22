@@ -6,7 +6,7 @@
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     cursor: pointer;
-    color: #818181;
+    color: darkgrey;
   }
   
   .sidebarOption:hover,
@@ -15,8 +15,8 @@
   .sidebarOption--active,
   .sidebarOption--active > p,
   .sidebarOption--active > h3 {
-    background-color: #fcecec;
-    color: #c04b37;
+    background-color: lightcyan;
+    color: red;
     font-weight: 800 !important;
   }
   
