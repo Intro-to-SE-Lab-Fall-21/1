@@ -8,10 +8,12 @@ import { useDispatch, useSelector } from "react-redux";
 import { logout, selectUser } from "./features/userSlice";
 import { auth } from "./firebase";
 
+// Views the header setting correct proportions
 function Header() {
   const user = useSelector(selectUser);
   const dispatch = useDispatch();
 
+  // Signs user out from client if checked
   const signOut = () => {
     auth.signOut().then(() => {
       dispatch(logout());
@@ -26,6 +28,7 @@ function Header() {
         </IconButton>
       </div>
 
+    // Moves header to the middle
       <div className="header__middle">
         <SearchIcon />
         <input placeholder="Search mail" type="text" />
