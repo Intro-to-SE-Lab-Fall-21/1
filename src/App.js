@@ -3,7 +3,7 @@ import "./App.css";
 import Header from "./Header";
 import Sidebar from "./Sidebar";
 import Mail from "./Mail";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import EmailList from "./EmailList";
 import SendMail from "./SendMail";
 import { useDispatch, useSelector } from "react-redux";
