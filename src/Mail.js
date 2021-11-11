@@ -32,6 +32,7 @@ function Mail() {
         <div className="mail__message">
           <p>{selectedMail?.description}</p>
         </div>
+        <img width="600" src={selectedMail?.avatar} />
       </div>
     </div>
   );
