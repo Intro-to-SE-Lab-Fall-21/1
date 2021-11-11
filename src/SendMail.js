@@ -5,10 +5,19 @@ import { Button } from "@material-ui/core";
 import { useForm } from "react-hook-form";
 import { useDispatch } from "react-redux";
 import { closeSendMessage } from "./features/mailSlice";
-import { db } from "./firebase";
+import { db, storage } from "./firebase";
 import firebase from "firebase";
 
 function SendMail() {
+  const [fileUrl, setFileUrl] = React.useState(null)
+  const onFileChange = async (formData) =>{
+    const file = formData.target.files[0]
+    const storageRef = firebase.storage().ref()
+    const fileRef= storageRef.child(file.name)
+    await fileRef.put(file)
+    setFileUrl(await fileRef.getDownloadURL())
+
+  }
   const { register, handleSubmit, watch, errors } = useForm();
   const dispatch = useDispatch();
 
@@ -18,11 +27,16 @@ function SendMail() {
       to: formData.to,
       subject: formData.subject,
       message: formData.message,
+      avatar: fileUrl,
       timestamp: firebase.firestore.FieldValue.serverTimestamp(),
     });
 
+
     dispatch(closeSendMessage());
   };
+  
+  
+
 
   return (
     <div className="sendMail">
@@ -63,6 +77,11 @@ function SendMail() {
         {errors.message && (
           <p className="sendMail__error">Message is Required!</p>
         )}
+        <input
+          name="attachment"
+          type="file"
+          onChange={onFileChange}
+        />
 
         <div className="sendMail__options">
           <Button
