@@ -40,6 +40,9 @@ The email client will need toperform the following functionalities:
 - 10/19 - 2 hours
 - 10/20 - 3 hours
 - 10/21 - 1 hour
+- 11/07 - 2 hours
+- 11/09 - 2 hours
+- 11/15 - 3 hours
 
 ##Starting Project:
 
