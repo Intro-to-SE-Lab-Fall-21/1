@@ -19,7 +19,6 @@ The email client will need toperform the following functionalities:
 - HTML
 - CSS
 - Javascript
-- Python
 ## Frameworks
 ---
 - React
