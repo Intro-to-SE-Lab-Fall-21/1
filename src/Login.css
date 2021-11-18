@@ -1,12 +1,15 @@
 .login {
-    background-color: #f2f2f2;
-    display: grid;
-    place-items: top;
-    height: 100vh;
-  }
+  background-color: maroon;
+  display:flex;
+  place-items: center;
+  height: 100vh;
+  padding-left: 40%;
   
-  .login__container {
-    display: flex;
-    flex-direction: column;
-  }
-  
+}
+
+.login__container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 45%;
+}
