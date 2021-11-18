@@ -1,8 +1,9 @@
 language: node_js
 node_js:
-  - "12"
-install:
-  - cat requirements.txt | xargs npm install -g
+  - "stable"
+cache:
+  directories:
+  - node_modules
 script:
-    - npm test
-    - npm run build
+  - npm test
+  - npm run build
