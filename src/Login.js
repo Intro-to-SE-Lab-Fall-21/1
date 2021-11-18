@@ -30,8 +30,8 @@ function Login() {
           src=""
           alt=""
         />
-        <Button variant="contained" color="red" onClick={signIn}>
-          Login
+        <Button variant="contained" color="maroon" onClick={signIn}>
+          Login 
         </Button>
       </div>
     </div>
