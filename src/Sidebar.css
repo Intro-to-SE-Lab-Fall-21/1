@@ -1,18 +1,24 @@
 .sidebar {
   flex: 0.3;
-  max-width: 300px;
+  max-width: 280px;
+  max-height: 11900px;
   padding-right: 20px;
-  background-color: aqua;
+  background-color: maroon;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
 }
 
 .sidebar__sendmail {
-  margin-top: 15px !important;
-  margin-left: 10px !important;
-  margin-bottom: 15px !important;
+  margin-top: -25px !important;
+  margin-left: -30px !important;
+  margin-bottom: 60px !important;
   text-transform: capitalize !important;
-  background-color: aqua;
-  padding: 15px !important;
+  background-color: darkslategray;
+  padding: 30px !important;
   border-radius: 30px !important;
+  display: flex;
+  flex-direction: column;
 }
 
 .sidebar__footer {
