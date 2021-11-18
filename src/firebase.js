@@ -1,13 +1,14 @@
 import firebase from "firebase";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA73FOC2K7b2P2yioe8FSnQW9mX5xoUOSY",
-  authDomain: "glient.firebaseapp.com",
-  projectId: "glient",
-  storageBucket: "glient.appspot.com",
-  messagingSenderId: "424960871780",
-  appId: "1:424960871780:web:d8abe8d67413e863e3be71",
-};
+  apiKey: "AIzaSyAw1ZzPtkdWKkGU-5CGx8KxBy7FDAR9KOo",
+  authDomain: "client-a5b04.firebaseapp.com",
+  projectId: "client-a5b04",
+  storageBucket: "client-a5b04.appspot.com",
+  messagingSenderId: "267456873836",
+  appId: "1:267456873836:web:1a5a13d917c5bbdba15f49",
+  measurementId: "G-D53LK4DDRH"
+}; 
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 const db = firebaseApp.firestore();
