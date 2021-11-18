@@ -7,15 +7,24 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import EmailList from "./EmailList";
 import SendMail from "./SendMail";
 import { useDispatch, useSelector } from "react-redux";
-import { selectSendMessageIsOpen } from "./features/mailSlice";
+import { selectForwardIsOpen, selectSendMessageIsOpen } from "./features/mailSlice";
 import { login, selectUser } from "./features/userSlice";
 import Login from "./Login";
 import { auth } from "./firebase";
+import Forward from "./Forward"
+
+
+
 
 function App() {
   const sendMessageIsOpen = useSelector(selectSendMessageIsOpen);
+  const ForwardIsOpen = useSelector(selectForwardIsOpen);
   const user = useSelector(selectUser);
   const dispatch = useDispatch();
+
+    
+  
+  
 
   useEffect(() => {
     auth.onAuthStateChanged((user) => {
@@ -53,6 +62,7 @@ function App() {
           </div>
 
           {sendMessageIsOpen && <SendMail />}
+          {ForwardIsOpen && <Forward />}
         </div>
       )}
     </Router>
