@@ -5,8 +5,9 @@ import { Button } from "@material-ui/core";
 import { useForm } from "react-hook-form";
 import { useDispatch } from "react-redux";
 import { closeSendMessage } from "./features/mailSlice";
-import { db, storage } from "./firebase";
+import { db } from "./firebase";
 import firebase from "firebase";
+import Close from "@material-ui/icons/Close";
 
 function SendMail() {
   const [fileUrl, setFileUrl] = React.useState(null)
@@ -42,7 +43,8 @@ function SendMail() {
     <div className="sendMail">
       <div className="sendMail__header">
         <h3>New Message</h3>
-        <CloseIcon
+        <Close
+          Icon={CloseIcon}
           onClick={() => dispatch(closeSendMessage())}
           className="sendMail__close"
         />
@@ -97,5 +99,6 @@ function SendMail() {
     </div>
   );
 }
+
 
 export default SendMail;
