@@ -9,11 +9,11 @@
 - Creating a user friendly and easy to use email client for our users.
 ## Objective
 ---
-The email client will need toperform the following functionalities:
+The email client will need to perform the following functionalities:
 - A user should be able to login into his account to access his emails.
 - A user should be able to compose, edit and send an email to other users.
-- A user should be able to searchand forward emails to other users.
-- A user should be able to sendattachments (image, files etc.) along with an email
+- A user should be able to search and forward emails to other users.
+- A user should be able to send attachments (image, files etc.) along with an email
 ## Languages
 ---
 - HTML
