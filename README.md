@@ -2,7 +2,7 @@
 ## Group Members
 ---
 - Adam Thomas(amotiv)
-- Connor Moody(mcmoody)
+- Connor Moody(mcm1053)
 - Cooper Riley(cooper350)
 ## Project Description
 ---
